@@ -180,8 +180,8 @@ class Field(object):
 
 
 class Game(object):
-    letters = ("A", "B", "C", "D", "E", "F")
-    ships_rules = [1, 1, 1, 2, 2, 3,]
+    letters = ("A", "B", "C", "D", "E", "F")    #добавляем буквы и расширяем поле
+    ships_rules = [1, 1, 1, 2, 2, 3,]           #добавляем цифры и дополняем корабли [... , 3, 4]
     field_size = len(letters)
 
     def __init__(self):
